@@ -1,0 +1,231 @@
+# 📘 **Chapter 3.1: Forward Propagation**
+
+This chapter explains the **first major operation in a neural network**:
+
+👉 **Forward Propagation = How input data moves through the network to produce output**
+
+---
+
+## 🔹 1. What is Forward Propagation?
+
+### Definition
+
+👉 Forward propagation is the process of:
+
+* Taking input data
+* Passing it through layers
+* Producing an output
+
+---
+
+### Simple Analogy
+
+Think of a factory:
+
+* Raw materials → input
+* Machines → hidden layers
+* Final product → output
+
+👉 The movement from start to end = **forward propagation**
+
+---
+
+## 🔹 2. Why is it Important?
+
+Forward propagation is used to:
+
+* Make predictions
+* Compute output
+* Prepare for error calculation (loss)
+
+---
+
+👉 Without forward propagation → no prediction → no learning
+
+---
+
+## 🔹 3. Step-by-Step Process
+
+Let’s break it down:
+
+---
+
+### 🔸 Step 1: Input Layer
+
+Input data enters the network:
+
+```id="l7pn1j"
+x = [x₁, x₂, x₃]
+```
+
+Example:
+
+* x₁ = size
+* x₂ = location
+* x₃ = rooms
+
+---
+
+### 🔸 Step 2: Multiply with Weights
+
+Each connection has a weight:
+
+```id="c0b3u3"
+w = [w₁, w₂, w₃]
+```
+
+---
+
+### 🔸 Step 3: Compute Weighted Sum
+
+z = Wx + b
+
+---
+
+### 🔸 Step 4: Apply Activation Function
+
+a = f(z)
+
+---
+
+👉 Output of one layer becomes input of next layer
+
+---
+
+## 🔹 4. Forward Propagation Through Multiple Layers
+
+For each layer:
+
+1. Compute weighted sum
+2. Apply activation
+3. Pass output forward
+
+---
+
+### General Form
+
+For layer (l):
+
+a^{(l)} = f\left(W^{(l)} a^{(l-1)} + b^{(l)}\right)
+
+---
+
+👉 This repeats layer by layer
+
+---
+
+## 🔹 5. Visual Flow
+
+![Image](https://images.openai.com/static-rsc-4/tkroaLNYpv_rtubWvYdKnqYP0xfHlYIlTyGc2bOyyJ-izAl0yaWkBPvLEacgthzy4FmP9o1z0mSfVDH4XtapyNzUG7P1_p1UECfJYygwr6F6v8Lde6aD3vDtVwoAnzxzhfmj4rxDJbEBKo7P7zIs-5Lziw8zgv0xFtf_ETWyZ8INQ7XGTop4kEIZ6tm-uhsH?purpose=fullsize)
+
+---
+
+### Flow Summary
+
+Input → Hidden Layer → Hidden Layer → Output
+
+---
+
+## 🔹 6. Simple Numerical Example
+
+### Given:
+
+```id="z9qvgn"
+Input x = [2, 3]
+Weights w = [4, 5]
+Bias b = 1
+```
+
+---
+
+### Step 1: Weighted Sum
+
+```id="fp4xk8"
+z = (2×4) + (3×5) + 1 = 24
+```
+
+---
+
+### Step 2: Activation (ReLU)
+
+```id="cwttys"
+a = max(0, 24) = 24
+```
+
+---
+
+👉 Final output = **24**
+
+---
+
+## 🔹 7. Key Insight
+
+👉 Forward propagation is just:
+
+* Multiply
+* Add
+* Activate
+* Repeat
+
+---
+
+## 🔹 8. Why Called “Forward”?
+
+Because data moves:
+
+👉 **From input → to output (left to right)**
+
+---
+
+## 🔹 9. Forward Propagation vs Training
+
+| Step                | Purpose        |
+| ------------------- | -------------- |
+| Forward Propagation | Compute output |
+| Loss Function       | Measure error  |
+| Backpropagation     | Adjust weights |
+
+---
+
+👉 Forward propagation = **prediction step**
+
+---
+
+## 🔹 10. Common Mistakes
+
+### ❌ Thinking it is complex
+
+✔️ It is repeated simple math
+
+---
+
+### ❌ Ignoring layer-wise flow
+
+✔️ Each layer depends on previous output
+
+---
+
+### ❌ Forgetting activation
+
+✔️ Without activation → weak model
+
+---
+
+## 🔹 11. Real-Life Example
+
+### Problem: Predict Exam Result
+
+* Input: marks, attendance
+* Hidden layer: combines factors
+* Output: pass/fail
+
+👉 Forward propagation = full evaluation process
+
+---
+
+## 🎯 Summary (In One Line)
+
+👉 Forward propagation is the process of passing inputs through layers to generate predictions.
+
+---
+
