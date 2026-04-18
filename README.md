@@ -62,29 +62,29 @@
 
 ### 🟤 Part 7: Practical Implementation
 
-* [7.1 Popular Libraries](#)
-* [7.2 Model Building Workflow](#)
-* [7.3 Hyperparameter Tuning](#)
-* [7.4 Model Evaluation Metrics](#)
+* [7.1 Popular Libraries](https://github.com/fromsantanu/ANNTut/blob/main/Part7/p7-1.md)
+* [7.2 Model Building Workflow](https://github.com/fromsantanu/ANNTut/blob/main/Part7/p7-2.md)
+* [7.3 Hyperparameter Tuning](https://github.com/fromsantanu/ANNTut/blob/main/Part7/p7-3.md)
+* [7.4 Model Evaluation Metrics](https://github.com/fromsantanu/ANNTut/blob/main/Part7/p7-4.md)
 
 ---
 
 ### ⚫ Part 8: Applications of ANN
 
-* [8.1 Computer Vision](#)
-* [8.2 Natural Language Processing (NLP)](#)
-* [8.3 Healthcare](#)
-* [8.4 Speech & Audio](#)
-* [8.5 Recommendation Systems](#)
+* [8.1 Computer Vision](https://github.com/fromsantanu/ANNTut/blob/main/Part8/p8-1.md)
+* [8.2 Natural Language Processing (NLP)](https://github.com/fromsantanu/ANNTut/blob/main/Part8/p8-2.md)
+* [8.3 Healthcare](https://github.com/fromsantanu/ANNTut/blob/main/Part8/p8-3.md)
+* [8.4 Speech & Audio](https://github.com/fromsantanu/ANNTut/blob/main/Part8/p8-4.md)
+* [8.5 Recommendation Systems](https://github.com/fromsantanu/ANNTut/blob/main/Part8/p8-5.md)
 
 ---
 
 ### ⚪ Part 9: Research & Future Directions
 
-* [9.1 Explainable AI (XAI)](#)
-* [9.2 Neural Architecture Search (NAS)](#)
-* [9.3 Edge AI](#)
-* [9.4 Ethical Considerations](#)
+* [9.1 Explainable AI (XAI)](https://github.com/fromsantanu/ANNTut/blob/main/Part9/p9-1.md)
+* [9.2 Neural Architecture Search (NAS)](https://github.com/fromsantanu/ANNTut/blob/main/Part9/p9-2.md)
+* [9.3 Edge AI](https://github.com/fromsantanu/ANNTut/blob/main/Part9/p9-3.md)
+* [9.4 Ethical Considerations](https://github.com/fromsantanu/ANNTut/blob/main/Part9/p9-4.md)
 
 ---
 
